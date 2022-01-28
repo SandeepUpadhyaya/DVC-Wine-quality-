@@ -13,3 +13,10 @@ pip install -r requiremnets.txt
 '''
 download the data from
 https://drive.google.com/drive/folders/1xw0XX-WK74uxtFFLySbtnX-ODdmdK5Ec
+
+git init
+dvc init
+dvc add data_given/winequality.csv
+
+git add.
+git commit -m "first commit"
