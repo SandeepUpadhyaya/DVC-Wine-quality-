@@ -22,14 +22,24 @@ git add.
 git commit -m "first commit"
 
 onliner update for readme
+'''bash
 git add ..&& git commit -m "update Readme.md"
 or
 git add .
-git commit -m "update Readme.md"
 
+
+'''
+
+adding repository
+'''bash
 git remote add origin https://github.com/SandeepUpadhyaya/DVC-Wine-quality-.git
+'''
+
+Pushing changes to the reposatory
+'''bash
 
 git push origin main
+'''
 
 git branch -M main
 
