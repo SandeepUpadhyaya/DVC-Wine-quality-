@@ -89,5 +89,5 @@ def api_response(dict_request):
 
 
     except Exception as e:
-        response = {"response": str(e) }
+        response = {"response": str(e)}
         return response
