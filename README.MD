@@ -45,3 +45,15 @@ git branch -M main
 
 git push origin main
 
+mlflow server \
+    --backend-store-uri sqlite:///mlflow.db \
+    --default-artifact-root ./artifacts \
+    --host 0.0.0.0 -p 1234
+
+
+    
+
+    Create artifacts folder(mkdir artifacts)
+    then run this command
+    mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 -p 1234
+    (Remember to start the mlflow sever using another terminal.)
